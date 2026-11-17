@@ -347,7 +347,7 @@ static bool stores_gcode_in_usr_data(const std::string& model)
         "K1 SE",
         "K1 SE_CFS-C",
         "K1C",
-        "K1C_CFS-C",
+        "K1C_CFS-C", "K1C 2025_CFS-C",
         "K1_CFS-C",
     };
     return usr_data_models.count(model) > 0;
@@ -378,7 +378,7 @@ static const std::map<std::string, std::string>& cfs_capable_models()
         {"K1 SE", "K1 SE"},
         {"K1 SE_CFS-C", "K1 SE_CFS-C"},
         {"K1C", "K1C"},
-        {"K1C_CFS-C", "K1C_CFS-C"},
+        {"K1C_CFS-C", "K1C_CFS-C"}, {"K1C 2025_CFS-C", "K1C 2025_CFS-C"},
         {"K1_CFS-C", "K1_CFS-C"},
     };
     return models;
